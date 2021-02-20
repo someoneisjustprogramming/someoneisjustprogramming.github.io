@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>First Attempt!</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class='selected'>Home</li>
+          <li class='scale'><a href='part-1.html'>Part-1</a></li>
+          <li class='scale'><a href='part-2.html'>Part-2</a></li>
+          <li class='scale'><a href='part-3.html'>Part-3</a></li>
+          <li class='dropdown'><a href='part-4.html'>Part-4</a>
+            <ul class=part-4-dropdown>
+              <li><a href='#'>Test-1</a></li>
+              <li><a href='#'>Test-2</a></li>
+              <li><a href='#'>Test-3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class='top-heading'>
+        <h1>My <strong>first</strong> website</h1>
+        <h2>by Nils</h2>
+      </div>
+    </header>
+
+    <div class='page'>
+
+      <section class='section section1'>
+        <h2>Quality</h2>
+
+        <p>Quality is a very <strong>important</strong> part of a website. Keep that in mind.</p>
+      </section>
+
+      <section class='section section 2'>
+        <h2>Quantity</h2>
+
+        <p>As well as Quality, Quantity is the base for a well managed product.</p>
+      </section>
+
+      <section class='section section3'>
+          <h2>Motivation</h2>
+
+          <p>Without Motivation you can not even start to programm a website.</p>
+      </section>
+
+    </div>
+    <hr/>
+    <div class='page'>
+
+      <form action='' method='get' class='speaker-form'>
+        <div class='form-row'>
+          <label for='name'>Name</label>
+          <input id='name' name='name' type='text'
+                  placeholder='what is your name?'/>
+        </div>
+        <div class='form-row'>
+          <label for='email'>Email</label>
+          <input id='email' name='email'
+                type='email'
+                placeholder='emma&lena@gmail.com'/>
+        </div>
+        <div class='form-row'>
+          <label for='birthday'>Birthday</label>
+          <input id='birthday' name='birthday'
+                type='date' min='1900-01-01'
+                max='15.02.2021'>
+        </div>
+      </form>
+
+    </div>
+  </body>
+</html>

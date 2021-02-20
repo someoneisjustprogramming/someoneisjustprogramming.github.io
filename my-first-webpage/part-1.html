@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Part-1!</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class='scale'><a href='first-attempt.html'>Home</a></li>
+          <li class='selected'>Part-1</li>
+          <li class='scale'><a href='part-2.html'>Part-2</a></li>
+          <li class='scale'><a href='part-3.html'>Part-3</a></li>
+          <li class='dropdown'><a href='part-4.html'>Part-4</a>
+            <ul class=part-4-dropdown>
+              <li><a href='#'>Test-1</a></li>
+              <li><a href='#'>Test-2</a></li>
+              <li><a href='#'>Test-3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class='top-heading'>
+        <h1>This is <strong>Part 1</strong></h1>
+      </div>
+    </header>
+
+    <div class='page'>
+    <article>
+    <section class='what'>
+      <form action='' method='get' class='speaker-form'>
+        <fieldset class='guitar'>
+          <legend>What guitar song?</legend>
+
+          <label for='guitar-song' class='radio-label'>
+            <input id='guitar-song-1'
+                  name='guitar-song'
+                  type='radio'
+                  value='value-1'/>song-1
+          </label>
+          <input id='guitar-song-2'
+                name='guitar-song'
+                type='radio'
+                value='value-2'
+                checked/>
+          <label for='guitar-song-2' class='radio-label'>song-2</label>
+          <label for='abtype'>Just a simple selection
+          </label>
+            <select id='abtype'>
+              <option selected>Select one....</option>
+              <option value='tour'>Option 1</option>
+              <option value='tour2'>Option 2</option>
+              <option value='tour 3'>Option 3</<option>
+            </select>
+          <label for='comments'>This is the textarea</label>
+          <textarea id='comments' name='comments'></textarea>
+          <label>
+            <input type='checkbox' value='subscribe'
+            name='subscribe' id='subscribe' checked>Add me to your
+            email list!
+          </label>
+        </fieldset>
+
+        <button type='submit'>Submit</button>
+
+
+      </form>
+    </section>
+    </article>
+    </div>
+
+  </body>
+</html>
